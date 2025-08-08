@@ -53,10 +53,15 @@ UI	Prediction
 ### 📂 Project Structure
 
 predicrop/
+
 ├── Crop_recommendation.csv   # Dataset
+
 ├── app.py                    # Streamlit app
+
 ├── README.md                 # This file
+
 ├── requirements.txt          # Dependencies
+
 └── screenshots/              # UI screenshots
 
 ### 🙌 Acknowledgements

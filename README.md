@@ -1,56 +1,56 @@
-### 🌾 PrediCrop: Smart Crop Prediction Web App
+# 🌾 PrediCrop: Smart Crop Prediction Web App
 A smart crop recommendation system powered by Machine Learning and real-time weather data 🌦️. Given soil parameters and city, it predicts the most suitable crop to grow.
 
 
-###🔍 Features
+## 🔍 Features
 📈 Trains a machine learning model (Random Forest)
 
-### 📊 Takes user input for:
+## 📊 Takes user input for:
 
-## Nitrogen (N)
+### Nitrogen (N)
 
-Phosphorus (P)
+### Phosphorus (P)
 
-Potassium (K)
+### Potassium (K)
 
-pH Level
+### pH Level
 
-☁️ Fetches live weather data (temperature, humidity, rainfall) from OpenWeatherMap API
+### ☁️ Fetches live weather data (temperature, humidity, rainfall) from OpenWeatherMap API
 
-🌱 Predicts the most suitable crop for farming
+### 🌱 Predicts the most suitable crop for farming
 
-🚀 Live Demo
+### 🚀 Live Demo
 You can run the app locally using Streamlit (see instructions below).
 
-🧠 Model Accuracy
+### 🧠 Model Accuracy
 The trained Random Forest model achieves ~99% accuracy on the test data.
 
-📁 Dataset
+### 📁 Dataset
 Used dataset: Crop Recommendation Dataset (Kaggle)
 
-🛠️ Installation
-1. Clone the Repository
+## 🛠️ Installation
+### 1. Clone the Repository
 git clone https://github.com/your-username/predicrop.git
 cd predicrop
 
-2. Install Dependencies
+### 2. Install Dependencies
 pip install -r requirements.txt
 If requirements.txt is missing, install manually:
 pip install pandas scikit-learn streamlit requests
 
-3. Add API Key
+### 3. Add API Key
 Replace the value of API_KEY in the app.py (or wherever your Streamlit code is) with your OpenWeatherMap API key:
 API_KEY = "your_api_key_here"
 Get a free API key from https://openweathermap.org/
 
-4.🖥️ Run the Streamlit App
+### 4.🖥️ Run the Streamlit App
 streamlit run app.py
 This will launch the web app at localhost:8501
 
-📸 Screenshots
+### 📸 Screenshots
 UI	Prediction
 
-📂 Project Structure
+### 📂 Project Structure
 
 predicrop/
 ├── Crop_recommendation.csv   # Dataset
@@ -59,7 +59,7 @@ predicrop/
 ├── requirements.txt          # Dependencies
 └── screenshots/              # UI screenshots
 
-🙌 Acknowledgements
+### 🙌 Acknowledgements
 OpenWeatherMap
 Kaggle - Crop Dataset
 Built using Streamlit

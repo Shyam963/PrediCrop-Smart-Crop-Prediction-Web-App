@@ -31,20 +31,26 @@ Used dataset: Crop Recommendation Dataset (Kaggle)
 ## 🛠️ Installation
 ### 1. Clone the Repository
 git clone https://github.com/your-username/predicrop.git
+
 cd predicrop
 
 ### 2. Install Dependencies
 pip install -r requirements.txt
+
 If requirements.txt is missing, install manually:
+
 pip install pandas scikit-learn streamlit requests
 
 ### 3. Add API Key
 Replace the value of API_KEY in the app.py (or wherever your Streamlit code is) with your OpenWeatherMap API key:
+
 API_KEY = "your_api_key_here"
+
 Get a free API key from https://openweathermap.org/
 
 ### 4.🖥️ Run the Streamlit App
 streamlit run app.py
+
 This will launch the web app at localhost:8501
 
 ### 📸 Screenshots
@@ -66,6 +72,8 @@ predicrop/
 
 ### 🙌 Acknowledgements
 OpenWeatherMap
+
 Kaggle - Crop Dataset
+
 Built using Streamlit
 

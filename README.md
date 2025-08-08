@@ -1,13 +1,13 @@
-🌾 PrediCrop: Smart Crop Prediction Web App
+### 🌾 PrediCrop: Smart Crop Prediction Web App
 A smart crop recommendation system powered by Machine Learning and real-time weather data 🌦️. Given soil parameters and city, it predicts the most suitable crop to grow.
 
 
-🔍 Features
+###🔍 Features
 📈 Trains a machine learning model (Random Forest)
 
-📊 Takes user input for:
+### 📊 Takes user input for:
 
-Nitrogen (N)
+## Nitrogen (N)
 
 Phosphorus (P)
 

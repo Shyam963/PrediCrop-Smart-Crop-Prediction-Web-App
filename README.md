@@ -79,3 +79,7 @@ Kaggle - Crop Dataset
 
 Built using Streamlit
 
+### OUTPUT
+<img width="1920" height="1080" alt="Screenshot (94)" src="https://github.com/user-attachments/assets/e8140fd3-da24-4b01-960f-3ddc8ab7cbb2" />
+<img width="1262" height="206" alt="Screenshot 2025-08-08 213652" src="https://github.com/user-attachments/assets/10933a5a-9f62-4611-acdb-91b76cdf5bb5" />
+
